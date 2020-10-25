@@ -2,8 +2,13 @@ article {
     text-align: center;
 }
 
-img {
-    width: 400px;
+#tobiasbilde {
+    width: 300px;
+    height: auto;
+}
+
+#aleksbilde {
+    width: 300px;
     height: auto;
 }
 
