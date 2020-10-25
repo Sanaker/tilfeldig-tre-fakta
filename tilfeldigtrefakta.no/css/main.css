@@ -1,0 +1,29 @@
+#quotebutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  font-size: x-large;
+}
+#tilfeldig {
+  align-items: center;
+  text-align: center;
+}
+
+#quotes {
+  width:400px;
+    height:auto;
+    background-color: none;
+    color:white;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#quoteDisplay {
+  font-size: 25px;
+}
