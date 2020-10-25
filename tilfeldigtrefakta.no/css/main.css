@@ -27,3 +27,8 @@
 #quoteDisplay {
   font-size: 25px;
 }
+
+#quotebutton:hover {
+  box-shadow: 2px 2px 2px green;
+  background-color:#4CAF50;
+}

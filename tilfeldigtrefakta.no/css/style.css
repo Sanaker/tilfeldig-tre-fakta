@@ -5,6 +5,12 @@ body {
     background-size: cover;
     background-blend-mode: darken;
     color: white;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    width: auto;
 }
 
 /* Add a black background color to the top navigation */
@@ -60,4 +66,15 @@ position: absolute;
 bottom: 0;
 width: auto;
 height: 2.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url("https://github.com/Sanaker/tilfeldig-tre-fakta/blob/main/tilfeldigtrefakta.no/bilder/woods.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+}
 }
